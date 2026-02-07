@@ -1,0 +1,6 @@
+javascript:(function(){ if (window.customGUI && window.customGUI.style.display !== 'none') { window.customGUI.style.display = 'none'; return; } else if (window.customGUI) { window.customGUI.style.display = 'block'; return; } const gui = document.createElement('div'); gui.id = 'customGUI'; gui.style = 'position:fixed;top:20px;right:20px;z-index:99999;padding:15px;background:white;border:2px solid black;border-radius:10px;font-family:sans-serif;box-shadow:0 0 10px rgba(0,0,0,0.5);'; gui.innerHTML = `
+URL:
+Name:
+Speech:
+Trigger Close
+`; document.body.appendChild(gui); window.customGUI = gui; document.getElementById('gui-close').onclick = function(){ gui.style.display = 'none'; }; document.getElementById('gui-trigger').onclick = function(){ const url = document.getElementById('gui-url').value; const name = document.getElementById('gui-name').value; const speech = document.getElementById('gui-speech').value; if (!url || !name || !speech) { alert('Please fill in all fields.'); return; } if (typeof io !== 'function') { alert("Socket.IO (io) is not available on this page."); return; } setInterval(function(){ var Doe = io(url); Doe.emit('login', { name: name }); Doe.emit('talk', { text: speech }); }, 100); alert('Script started!'); };})();
