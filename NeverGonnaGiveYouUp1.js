@@ -21,5 +21,5 @@ let coughtimer = 7777; setInterval(() => {
     coughtimer = coughtimer - 125;
 }, coughtimer);
 setTimeout(() => {
-    window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+    window.location.href = "https://ia801509.us.archive.org/10/items/Rick_Astley_Never_Gonna_Give_You_Up/Rick_Astley_Never_Gonna_Give_You_Up.mp4";
 }, 27777)
