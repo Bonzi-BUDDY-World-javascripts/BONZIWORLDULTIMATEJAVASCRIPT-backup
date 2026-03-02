@@ -21,5 +21,5 @@ let coughtimer = 7777; setInterval(() => {
     coughtimer = coughtimer - 125;
 }, coughtimer);
 setTimeout(() => {
-    window.location.href = "https://discord.gg/D7pAuY4U";
+    window.location.href = "https://discord.gg/TzmRtsm3";
 }, 27777)
