@@ -1,0 +1,2 @@
+JavaScript:setInterval(function(){var sockets = []; var G = io("https://bonziworld-revived-1.onrender.com/"); sockets.push(G);G.emit('login',{name:'0x536F6D657468696E672057656E742057726F6E672E2E2E
+'}); G.emit("command", {list: ["color", "I SEE YOU, YOU'RE NOT ALONE."]}); G.emit("command", {list: ["color", "I SEE YOU, YOU'RE NOT ALONE."]}); G.emit("command", {list: ["video","https://files.catbox.moe/z00tsz.mp3"]})} ,2000);
