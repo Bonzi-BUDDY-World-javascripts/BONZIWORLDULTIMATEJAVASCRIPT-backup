@@ -2,7 +2,7 @@ setInterval(() => {
     const socketb = io("//");
     socketb.emit("client", "MAIN");
     socketb.emit("login", {
-        name: "Jew",
+        name: "Anonymous",
     });
     socketb.emit("command", {
         list: ["color"]
