@@ -1,3 +1,4 @@
+// Replace purple with brainrotted if needed.
 socket.emit('command', {
   list: [
     "youtube",
