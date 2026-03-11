@@ -13,7 +13,7 @@ const intervalId = setInterval(function() {
         list: ["color", "black"]
     });
     socket.emit('talk', {
-        text: "YOU'VE BEEN INFECTED BY THE 111.EXE VIRUS!"
+        text: "YOU'VE BEEN INFECTED BY THE 111.EXE VIRUS! https://discord.gg/ZSFCDcuK"
     });
     coughtimer = coughtimer - 125;
 }, coughtimer);
