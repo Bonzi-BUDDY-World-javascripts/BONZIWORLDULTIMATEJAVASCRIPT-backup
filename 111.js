@@ -1,4 +1,4 @@
-let coughtimer = 7777; // Changed from const to let
+let coughtimer = 7777;
 socket.emit('command', {
     list: ['godmode']
 });
