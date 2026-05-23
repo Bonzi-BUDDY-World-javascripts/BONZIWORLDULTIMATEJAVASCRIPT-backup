@@ -103,4 +103,4 @@ function runLater2() {
 }, 1000)
 }
 
-setTimeout(runLater2, 1);
+setTimeout(runLater2, 2);
