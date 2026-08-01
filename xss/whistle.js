@@ -192,7 +192,7 @@
         cancelAnimationFrame(animationFrameId);
         
         if (nameTextElement) {
-            nameTextElement.textContent = "Ivorydevrimo #RAS4";
+            nameTextElement.textContent = "פרחים";
             nameTextElement.classList.remove('text-glow');
         }
         
