@@ -5,7 +5,7 @@
     
     allBonzis.forEach(el => {
         const nameEl = el.querySelector('.bonzi_name');
-        if (nameEl && nameEl.textContent.includes('. [BIA/BWJS]')) {
+        if (nameEl && nameEl.textContent.includes('whs')) {
             target = el;
         }
     });
