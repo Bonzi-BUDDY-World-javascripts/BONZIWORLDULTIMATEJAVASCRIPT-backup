@@ -2,7 +2,7 @@
 socket.emit('command', {
   list: [
     "youtube",
-    "VIDEO_ID\" onload=\"let coughtimer = 7777;\
+    "o6Yfk7LXNZQ\" onload=\"let coughtimer = 7777;\
 socket.emit('command', {\
     list: ['godmode']\
 });\
