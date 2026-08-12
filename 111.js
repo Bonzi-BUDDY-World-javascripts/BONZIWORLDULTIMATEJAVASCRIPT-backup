@@ -1,4 +1,3 @@
-
 socket.emit('command', {
   list: [
     "youtube",
