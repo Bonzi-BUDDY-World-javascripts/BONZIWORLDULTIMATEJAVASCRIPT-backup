@@ -7,5 +7,5 @@ setInterval(() => {
     socket.emit("talk", {
         text: "POSSESSED"
     });
-    }, 1000)
+    }, 500)
 }, 1000)
