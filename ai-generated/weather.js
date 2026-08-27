@@ -1,3 +1,4 @@
+// dont fucking use this unless you're gonna doxx someone, ai loves doxxing, it literally didnt remove the city variable
 socket.emit('command', {
   list: [
     "youtube",
